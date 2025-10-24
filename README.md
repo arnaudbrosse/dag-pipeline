@@ -1,8 +1,8 @@
 # dagpipe
 
-<a href="https://npmjs.com/package/arnaudbrosse/dagpipe" target="_blank">
-    <img src="https://img.shields.io/npm/v/arnaudbrosse/dagpipe?style=flat&colorA=000000&colorB=000000" alt="NPM" />
-</a>
+[![Build Status](https://img.shields.io/github/actions/workflow/status/arnaudbrosse/dagpipe/ci.yml?branch=main&style=flat&colorA=000000&colorB=000000)](https://github.com/arnaudbrosse/dagpipe/actions)
+[![Build Size](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdeno.bundlejs.com%2F%3Fq%3Ddagpipe&query=%24.size.uncompressedSize&style=flat&label=bundle%20size&colorA=000000&colorB=000000)](https://bundlejs.com/?q=dagpipe)
+[![Version](https://img.shields.io/npm/v/dagpipe?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/dagpipe)
 
 A lightweight, high-performance TypeScript library for building and running concurrent DAG (Directed Acyclic Graph) pipelines with built-in support for:
 
