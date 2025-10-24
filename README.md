@@ -1,7 +1,7 @@
-# DAG Pipeline
+# dagpipe
 
-<a href="https://npmjs.com/package/arnaudbrosse/dag-pipeline" target="_blank">
-    <img src="https://img.shields.io/npm/v/arnaudbrosse/dag-pipeline?style=flat&colorA=000000&colorB=000000" alt="NPM" />
+<a href="https://npmjs.com/package/arnaudbrosse/dagpipe" target="_blank">
+    <img src="https://img.shields.io/npm/v/arnaudbrosse/dagpipe?style=flat&colorA=000000&colorB=000000" alt="NPM" />
 </a>
 
 A lightweight, high-performance TypeScript library for building and running concurrent DAG (Directed Acyclic Graph) pipelines with built-in support for:
@@ -27,7 +27,7 @@ A lightweight, high-performance TypeScript library for building and running conc
 ## Installation
 
 ```bash
-npm install dag-pipeline
+npm install dagpipe
 ````
 
 ---
@@ -35,7 +35,7 @@ npm install dag-pipeline
 ## Usage
 
 ```ts
-import { Pipeline } from "dag-pipeline";
+import { Pipeline } from "dagpipe";
 
 const pipeline = new Pipeline()
   .addNode({
