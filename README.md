@@ -1,5 +1,9 @@
 # DAG Pipeline
 
+<a href="https://npmjs.com/package/arnaudbrosse/dag-pipeline" target="_blank">
+    <img src="https://img.shields.io/npm/v/arnaudbrosse/dag-pipeline?style=flat&colorA=000000&colorB=000000" alt="NPM" />
+</a>
+
 A lightweight, high-performance TypeScript library for building and running concurrent DAG (Directed Acyclic Graph) pipelines with built-in support for:
 
 -  Concurrent task execution
