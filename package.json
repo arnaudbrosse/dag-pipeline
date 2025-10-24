@@ -1,6 +1,6 @@
 {
   "name": "dagpipe",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A lightweight, concurrent DAG pipeline library with retries, timeouts, and circuit breakers.",
   "type": "module",
   "main": "./dist/index.cjs",
