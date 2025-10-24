@@ -1,0 +1,52 @@
+{
+  "name": "dag-pipeline",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A lightweight, concurrent DAG pipeline library with retries, timeouts, and circuit breakers.",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "tsup": "^8.5.0",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7",
+    "vitest": "^4.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnaudbrosse/dag-pipeline.git"
+  },
+  "author": "Arnaud Brosse",
+  "license": "MIT",
+  "keywords": [
+    "dag",
+    "pipeline",
+    "typescript",
+    "concurrency",
+    "retry",
+    "circuit-breaker",
+    "workflow",
+    "async"
+  ]
+}
